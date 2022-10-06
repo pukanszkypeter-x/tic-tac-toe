@@ -1,7 +1,41 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #00122B;
 }
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* Login */
+
+.login-container {
+  max-width: 25%;
+  min-height: 55vh;
+  margin-left: 37.5%;
+  margin-top: 22.5vh;
+  opacity: 0.9;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.place-holder-1 {
+  height: 25px;
+}
+
+#login-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Game style */
 
 ol, ul {
   padding-left: 30px;
